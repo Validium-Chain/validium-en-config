@@ -117,7 +117,7 @@ services:
       EN_DA_BRIDGE_API_URL: "https://turing-bridge-api.avail.so"
       EN_DA_TIMEOUT_MS: "20000"
       EN_DA_API_NODE_URL: "wss://turing-rpc.avail.so/ws"
-      EN_DA_APP_ID: "102"
+      EN_DA_APP_ID: "444"
       EN_DA_SECRETS_SEED_PHRASE: "fuel index outdoor orbit pulp affair basket bus great afraid cabin also"
 
       EN_STATE_CACHE_PATH: "./db/ext-node/state_keeper"
