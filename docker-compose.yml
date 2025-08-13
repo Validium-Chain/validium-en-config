@@ -113,7 +113,7 @@ services:
       EN_EVM_EMULATOR_HASH: "0x0000000000000000000000000000000000000000000000000000000000000000"
 
       EN_DA_CLIENT: "Avail"
-      EN_DA_AVAIL_CLIENT_TYPE: "GasRelay"
+      EN_DA_AVAIL_CLIENT_TYPE: "FullClient"
       EN_DA_BRIDGE_API_URL: "https://turing-bridge-api.avail.so"
       EN_DA_TIMEOUT_MS: "20000"
       EN_DA_API_NODE_URL: "wss://turing-rpc.avail.so/ws"
