@@ -1,11 +1,15 @@
-server_addr: '0.0.0.0:3054'
-public_addr: '127.0.0.1:3054'
-debug_page_addr: '0.0.0.0:5000'
-max_payload_size: 5000000
+port: 2954
+server_addr: 127.0.0.1:2954
+public_addr: 127.0.0.1:2954
+max_payload_size: 2500000
 gossip_dynamic_inbound_limit: 100
+genesis_spec:
+  chain_id: 567
+  protocol_version: 1
+  validators:
+  - key: validator:public:bls12_381:a4d3a48567fd391127a2049f43397a526f8bd6612180d7451796a6373ad0944ff92e269b60690d52424d4a465fe0204b060f6857cdb66079e786982afa71228c2a1ca7cc81403f422c2658665420f400d2eb7c5a43a6ed59544ae52b3747f9bd
+    weight: 1
+  leader: validator:public:bls12_381:a4d3a48567fd391127a2049f43397a526f8bd6612180d7451796a6373ad0944ff92e269b60690d52424d4a465fe0204b060f6857cdb66079e786982afa71228c2a1ca7cc81403f422c2658665420f400d2eb7c5a43a6ed59544ae52b3747f9bd
 gossip_static_outbound:
-  # preconfigured ENs owned by Matterlabs that you can connect to
-  - key: 'node:public:ed25519:4a94067664e7b8d0927ab1443491dab71a1d0c63f861099e1852f2b6d0831c3e'
-    addr: 'external-node-consensus-sepolia.zksync.dev:3054'
-  - key: 'node:public:ed25519:cfbbebc74127099680584f07a051a2573e2dd7463abdd000d31aaa44a7985045'
-    addr: 'external-node-moby-consensus-sepolia.zksync.dev:3054'
+- key: node:public:ed25519:fd0a7c1aa15112fd8969dda74ba17ca5072b0bbd64bcb7e8db27d82f80c3d984
+  addr: 127.0.0.1:3054
