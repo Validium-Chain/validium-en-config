@@ -52,5 +52,5 @@ EN_SNAPSHOTS_OBJECT_STORE_BUCKET_BASE_URL: "raas-validium-testnet-external-node-
 After setting the above settings, you can run the node using the following command:
 
 ```bash
-docker-compose up -d
+docker compose up -d
 ```
