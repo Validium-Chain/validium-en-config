@@ -29,7 +29,7 @@ cd validium-en-config
 2. Run the compose file:
 
 ```bash
-docker-compose up -d
+docker compose up -d
 ```
 
 ### Downloading the snapshots
